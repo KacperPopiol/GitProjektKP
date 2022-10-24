@@ -11,9 +11,9 @@ int main()
         x = (-b)/a;
         cout <<"Miejsce zerowe podanej funkcji to: "<<x;
     }
-    else{
-        cout<<"a musi byc rozne od 0";
-        return 1;
+    else if(a == 0)
+    {
+        cout<<"Fukcja jest stala, brak miejsc zerowych";
     }
 
 
