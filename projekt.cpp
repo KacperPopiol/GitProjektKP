@@ -81,7 +81,7 @@ int main()
                     x=-b/(2*a);
                     cout<<"Wynik to : x = "<<x;
                 }
-                else if(d<0)  // Jeœli delta mniejsza od "0".
+                else if(d<0)
                 {
                         cout<<"Brak rozwiazan";
                     }
