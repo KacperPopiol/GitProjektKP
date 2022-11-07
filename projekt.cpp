@@ -21,9 +21,9 @@ int main()
                 x = (-b)/a;
                 cout <<"Miejsce zerowe podanej funkcji to: "<<x;
             }
-            else if(a == 0)
+            else
             {
-                cout<<"Fukcja jest stala, brak miejsc zerowych";
+                cout<<"A musi byc rozne od 0";
             }
         break;
       case 2:
@@ -38,9 +38,9 @@ int main()
                 x = (-b)/a;
                 cout <<"Miejsce zerowe podanej funkcji to: "<<x;
             }
-            else if(a == 0)
+            else
             {
-                cout<<"Fukcja jest stala, brak miejsc zerowych";
+                cout<<"A musi byc rozne od 0";
             }
 
         break;
