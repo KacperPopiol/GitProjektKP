@@ -49,6 +49,7 @@ int main()
                     }
                     break;
 
+
                 case 3:
                     system("cls");
                     cout<<"Podaj wspolczynnik kierunkowy prostej a "<<endl;
@@ -63,6 +64,7 @@ int main()
                         x1=(-b-sqrt(d))/(2*a);
                         x2=(-b+sqrt(d))/(2*a);
                         cout<<"Wynik to : x1 = "<<x1<<", x2 = "<<x2;
+
                     }
                     else if(d==0)
                     {
